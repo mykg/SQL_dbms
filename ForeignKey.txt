@@ -12,4 +12,5 @@
 #ON UPDATE/DELETE CASDADE it reflects the changes to child table
 #if column name in child same as parent it automatically assign it as foreign key \
 - alter table table_name add foreign key (attribute_name) references table_name (attribute_name);
-- drop foreign key constraint_name; #constraint_name automatically genearted if not given by user
+- alter table table_name drop foreign key constraint_name; #constraint_name automatically genearted if not given by user
+- show create table table_name; #to check details and constraints
