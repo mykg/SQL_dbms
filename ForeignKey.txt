@@ -5,7 +5,7 @@
 - Let Database customer_order
 - mostly exists in child table
 #below table is parent table
-- create table customer(cust_id int primary key auto_increment, F_name char(15),L_name(15), Mob_no bigint, email_id varchar);
+- create table customer(cust_id int primary key auto_increment, F_name char(15),L_name char(15), Mob_no bigint, email_id varchar(15));
 #below table is child
 - create table order (order_id primary key auto_increment, cust_id int, item_name char(20), order_time time, order_date date, amount int, 
   constraint order_fk1 foreign key (cust_id) references customer (cust_id) ON UPDATE CASCADE ON DELETE CASCADE);
