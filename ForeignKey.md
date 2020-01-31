@@ -1,5 +1,5 @@
 # LAB_NOTES 31-jan-2020
-
+## Foreign Key
 - refers to primary key attribute
 - datatype should be same 
 - Let Database customer_order
@@ -13,4 +13,4 @@
 //if column name in child same as parent it automatically assign it as foreign key 
 - alter table table_name add foreign key (attribute_name) references table_name (attribute_name);
 - alter table table_name drop foreign key constraint_name; //constraint_name automatically genearted if not given by user
-- show create table table_name; #to check details and constraints
+- show create table table_name; //to check details and constraints
