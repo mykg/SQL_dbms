@@ -1,4 +1,4 @@
-#LAB_NOTES 31-jan-2020
+# LAB_NOTES 31-jan-2020
 
 - refers to primary key attribute
 - datatype should be same 
